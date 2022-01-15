@@ -1,15 +1,3 @@
-<script setup lang="ts">
-useHead({
-  title: 'Alvin Indra Pratama',
-  meta: [
-    {
-      name: 'description',
-      content: 'An online portfolio and blog by Alvin Indra Pratama.',
-    },
-  ],
-})
-</script>
-
 <template>
   <Header />
   <main class="app-container">

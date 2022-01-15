@@ -14,7 +14,7 @@ specifiers:
   '@vueuse/core': ^7.5.3
   '@vueuse/head': ^0.7.4
   '@windicss/plugin-animations': ^1.0.9
-  critters: ^0.0.14
+  critters: ^0.0.16
   cross-env: ^7.0.3
   dayjs: ^1.10.7
   eslint: ^8.2.0
@@ -71,7 +71,7 @@ devDependencies:
   '@vue/compiler-sfc': 3.2.26
   '@vue/server-renderer': 3.2.26_vue@3.2.26
   '@windicss/plugin-animations': 1.0.9
-  critters: 0.0.14
+  critters: 0.0.16
   cross-env: 7.0.3
   eslint: 8.6.0
   https-localhost: 4.7.0
@@ -87,7 +87,7 @@ devDependencies:
   vite-plugin-md: 0.11.7_vite@2.7.12
   vite-plugin-pages: 0.18.2_8e7a794d2c1f1ff5ff6eb4ae771e4ef1
   vite-plugin-windicss: 1.6.2_vite@2.7.12
-  vite-ssg: 0.15.6_3cc22207b3d45951915651e4732e6ac5
+  vite-ssg: 0.15.6_8e2845b2aedd978373561d98ded0ed86
   vue-tsc: 0.28.10_typescript@4.5.4
 
 packages:
@@ -1479,8 +1479,8 @@ packages:
       vary: 1.1.2
     dev: true
 
-  /critters/0.0.14:
-    resolution: {integrity: sha512-YiBoGKfU8/xg+tVMw0KfMBgmr0TWa1JGmRXDzbQRQQaDarGUcZZtZEB25QyYrLasQZAnvqoZhSg2GW0zdsQkYQ==}
+  /critters/0.0.16:
+    resolution: {integrity: sha512-JwjgmO6i3y6RWtLYmXwO5jMd+maZt8Tnfu7VVISmEWyQqfLpB8soBswf8/2bu6SBXxtKA68Al3c+qIG1ApT68A==}
     dependencies:
       chalk: 4.1.2
       css-select: 4.2.1
@@ -5315,7 +5315,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.15.6_3cc22207b3d45951915651e4732e6ac5:
+  /vite-ssg/0.15.6_8e2845b2aedd978373561d98ded0ed86:
     resolution: {integrity: sha512-OJsV4mjRODJS1XRm7DWXbgn30ELDXX07N7vnXHUSc8XtwGB9dcwz0y6kBj9p7He3MFOKaggDTRl5Bmw8M6gbPg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -5335,7 +5335,7 @@ packages:
       '@vue/server-renderer': 3.2.26_vue@3.2.26
       '@vueuse/head': 0.7.4_vue@3.2.26
       chalk: 4.1.2
-      critters: 0.0.14
+      critters: 0.0.16
       fs-extra: 10.0.0
       html-minifier: 4.0.0
       jsdom: 17.0.0

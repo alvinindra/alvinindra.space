@@ -35,7 +35,7 @@
     "@vue/compiler-sfc": "^3.2.21",
     "@vue/server-renderer": "^3.2.21",
     "@windicss/plugin-animations": "^1.0.9",
-    "critters": "^0.0.14",
+    "critters": "^0.0.16",
     "cross-env": "^7.0.3",
     "eslint": "^8.2.0",
     "https-localhost": "^4.7.0",
