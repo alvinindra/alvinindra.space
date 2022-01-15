@@ -11,14 +11,13 @@ specifiers:
   '@vitejs/plugin-vue': ^1.9.4
   '@vue/compiler-sfc': ^3.2.21
   '@vue/server-renderer': ^3.2.21
-  '@vueuse/core': ^6.7.6
-  '@vueuse/head': ^0.6.0
+  '@vueuse/core': ^7.5.3
+  '@vueuse/head': ^0.7.4
   '@windicss/plugin-animations': ^1.0.9
   critters: ^0.0.14
   cross-env: ^7.0.3
   dayjs: ^1.10.7
   eslint: ^8.2.0
-  eslint-plugin-cypress: ^2.12.1
   fs-extra: ^10.0.0
   gray-matter: ^4.0.3
   https-localhost: ^4.7.0
@@ -26,7 +25,7 @@ specifiers:
   markdown-it-prism: ^2.2.1
   node-sass: ^7.0.1
   nprogress: ^0.2.0
-  pinia: ^2.0.2
+  pinia: ^2.0.9
   pnpm: ^6.20.3
   prism-theme-vars: ^0.2.2
   sass: ^1.45.0
@@ -41,15 +40,15 @@ specifiers:
   vite-plugin-pwa: ^0.11.3
   vite-plugin-windicss: ^1.5.1
   vite-ssg: ^0.15.6
-  vue: ^3.2.21
+  vue: ^3.2.26
   vue-demi: ^0.12.1
   vue-router: ^4.0.12
   vue-tsc: ^0.28.10
 
 dependencies:
   '@iconify-json/logos': 1.0.4
-  '@vueuse/core': 6.9.2_vue@3.2.26
-  '@vueuse/head': 0.6.0_vue@3.2.26
+  '@vueuse/core': 7.5.3_vue@3.2.26
+  '@vueuse/head': 0.7.4_vue@3.2.26
   dayjs: 1.10.7
   fs-extra: 10.0.0
   gray-matter: 4.0.3
@@ -76,13 +75,12 @@ devDependencies:
   critters: 0.0.14
   cross-env: 7.0.3
   eslint: 8.6.0
-  eslint-plugin-cypress: 2.12.1_eslint@8.6.0
   https-localhost: 4.7.0
   markdown-it-link-attributes: 3.0.0
   markdown-it-prism: 2.2.2
   pnpm: 6.26.1
   typescript: 4.5.4
-  unplugin-auto-import: 0.4.20_@vueuse+core@6.9.2+vite@2.7.12
+  unplugin-auto-import: 0.4.20_@vueuse+core@7.5.3+vite@2.7.12
   unplugin-icons: 0.12.23_8e7a794d2c1f1ff5ff6eb4ae771e4ef1
   unplugin-vue-components: 0.17.11_vite@2.7.12+vue@3.2.26
   vite: 2.7.12_sass@1.48.0
@@ -91,7 +89,7 @@ devDependencies:
   vite-plugin-pages: 0.18.2_8e7a794d2c1f1ff5ff6eb4ae771e4ef1
   vite-plugin-pwa: 0.11.13_vite@2.7.12
   vite-plugin-windicss: 1.6.2_vite@2.7.12
-  vite-ssg: 0.15.6_236c81e764a74dc6b6ee785a4e418cf5
+  vite-ssg: 0.15.6_3cc22207b3d45951915651e4732e6ac5
   vue-tsc: 0.28.10_typescript@4.5.4
 
 packages:
@@ -1883,8 +1881,8 @@ packages:
   /@vue/shared/3.2.26:
     resolution: {integrity: sha512-vPV6Cq+NIWbH5pZu+V+2QHE9y1qfuTq49uNWw4f7FDEeZaDU2H2cx5jcUZOAKW7qTrUS4k6qZPbMy1x4N96nbA==}
 
-  /@vueuse/core/6.9.2_vue@3.2.26:
-    resolution: {integrity: sha512-FRwl4ccSFuHZBHLGgS9TMv/+Dd6XFaL4o9nph2qtgQIV+z29RBFokw08XjHfykiENRzB01MjYHJ7iRUnsIFQXg==}
+  /@vueuse/core/7.5.3_vue@3.2.26:
+    resolution: {integrity: sha512-D9j5ymHFMFRXQqCp0yZJkf/bvBGiz0MrKUa364p+L8dMyd5zyq2K1JmHyvoBd4xbTFRfmQ1h878u6YE5LCkDVQ==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -1894,21 +1892,21 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@vueuse/shared': 6.9.2_vue@3.2.26
+      '@vueuse/shared': 7.5.3_vue@3.2.26
       vue: 3.2.26
       vue-demi: 0.12.1_vue@3.2.26
     dev: false
 
-  /@vueuse/head/0.6.0_vue@3.2.26:
-    resolution: {integrity: sha512-fi7ZjkMpEAUtTT6iR5wgL2HkX1+3zbrmbpcwU//RgJIWEr5b42jk8E9yOheaC2dYAAHzelAllVpX0pDmhcTXuw==}
+  /@vueuse/head/0.7.4_vue@3.2.26:
+    resolution: {integrity: sha512-cmps+wrdgL77V72vtjU6kaAunkG6GhswaMIQoh7Twc52ql4/p7i1Amd31LqnnvNF/bfuvzcXgYvsH8I7kimZmA==}
     peerDependencies:
       vue: '>=3'
     dependencies:
       vue: 3.2.26
     dev: false
 
-  /@vueuse/shared/6.9.2_vue@3.2.26:
-    resolution: {integrity: sha512-lAiMh6XROs0kSKVd0Yb/6GKoQMxC1fYrFDi6opvQWISPtcqRNluRrQxLUZ3WTI78ovtoKRLktjhkFAtydcfFDg==}
+  /@vueuse/shared/7.5.3_vue@3.2.26:
+    resolution: {integrity: sha512-BJ71cxHN5VByW1S58Gl85NFJaQu93F7Vs7K/MuAKsIIuHm9PBbkR5Vxkg9ko9cBdiKVt+FNoo13BhdbA+Vwycg==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -3164,15 +3162,6 @@ packages:
     dependencies:
       debug: 3.2.7
       find-up: 2.1.0
-    dev: true
-
-  /eslint-plugin-cypress/2.12.1_eslint@8.6.0:
-    resolution: {integrity: sha512-c2W/uPADl5kospNDihgiLc7n87t5XhUbFDoTl6CfVkmG+kDAb5Ux10V9PoLPu9N+r7znpc+iQlcmAqT1A/89HA==}
-    peerDependencies:
-      eslint: '>= 3.2.1'
-    dependencies:
-      eslint: 8.6.0
-      globals: 11.12.0
     dev: true
 
   /eslint-plugin-es/3.0.1_eslint@8.6.0:
@@ -6492,7 +6481,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import/0.4.20_@vueuse+core@6.9.2+vite@2.7.12:
+  /unplugin-auto-import/0.4.20_@vueuse+core@7.5.3+vite@2.7.12:
     resolution: {integrity: sha512-8JdSJXn16cHnWEtEDCY6A5EkewDyUiZjEM07eE70BofEc+cVBmF6wFtxgoHIXEh4A327ZL5Shw6ajatYtDbynw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -6503,7 +6492,7 @@ packages:
     dependencies:
       '@antfu/utils': 0.3.0
       '@rollup/pluginutils': 4.1.2
-      '@vueuse/core': 6.9.2_vue@3.2.26
+      '@vueuse/core': 7.5.3_vue@3.2.26
       local-pkg: 0.4.1
       magic-string: 0.25.7
       resolve: 1.21.0
@@ -6734,7 +6723,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.15.6_236c81e764a74dc6b6ee785a4e418cf5:
+  /vite-ssg/0.15.6_3cc22207b3d45951915651e4732e6ac5:
     resolution: {integrity: sha512-OJsV4mjRODJS1XRm7DWXbgn30ELDXX07N7vnXHUSc8XtwGB9dcwz0y6kBj9p7He3MFOKaggDTRl5Bmw8M6gbPg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -6752,7 +6741,7 @@ packages:
     dependencies:
       '@vue/compiler-sfc': 3.2.26
       '@vue/server-renderer': 3.2.26_vue@3.2.26
-      '@vueuse/head': 0.6.0_vue@3.2.26
+      '@vueuse/head': 0.7.4_vue@3.2.26
       chalk: 4.1.2
       critters: 0.0.14
       fs-extra: 10.0.0
