@@ -2,14 +2,10 @@
 useHead({
   title: 'Alvin Indra Pratama',
   meta: [
-    { property: 'og:title', content: 'Alvin Indra Pratama' },
-    { property: 'og:image', content: 'https://alvinindra.space/thumbnail-card-web.png' },
     {
       name: 'description',
       content: 'An online portfolio and blog by Alvin Indra Pratama.',
     },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:creator', content: '@alvinindrapra' },
   ],
 })
 </script>
