@@ -15,7 +15,7 @@ defineProps({
         {{ project.name }}
       </h1>
       <div class="flex flex-col">
-        <div class="mb-4 text-sm h-60px <sm:h-auto">{{ project.description }}</div>
+        <div class="mb-4 text-sm dark:text-light-900 h-60px <sm:h-auto">{{ project.description }}</div>
         <div class="mt-auto">
           <div class="flex relative">
             <component
@@ -33,15 +33,11 @@ defineProps({
 
 <style lang="scss">
 .card {
-  @apply rounded-md bg-#fafafa shadow-gray-500 dark:bg-dark-500 no-underline
-  shadow-md hover:shadow-lg relative overflow-hidden;
-
-  &:hover {
-    @apply dark:shadow-white;
-  }
+  @apply rounded-md bg-#fafafa dark:shadow-gray-600 dark:bg-dark-200 no-underline
+  shadow-md dark:shadow-none hover:shadow-lg dark:hover:shadow-xl relative overflow-hidden;
 
   &-img {
-    @apply w-[100%] h-200px object-cover rounded-t-md
+    @apply w-full h-200px object-cover rounded-t-md
     relative overflow-hidden;
   }
 

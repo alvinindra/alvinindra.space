@@ -13,7 +13,7 @@ const { listProjects } = useProjects()
       <CardProject v-for="project in listProjects" :key="project.id" :project="project" />
     </div>
     <div class="mx-auto text-center">
-      <router-link class="btn-outline" to="/">
+      <router-link class="btn-outline" to="/projects">
         See more project
       </router-link>
     </div>
