@@ -1,0 +1,59 @@
+@import './typography.css';
+@import './markdown.css';
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: inter ui,-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  line-height: 1.54;
+  font-feature-settings: "liga","tnum","case","calt","zero","ss01","locl";
+}
+
+html.dark {
+  background: #292a2d;
+  color: #a9a9b3;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  @apply bg-teal-600 opacity-75;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+.icon-btn {
+  @apply inline-block cursor-pointer select-none
+    opacity-75 transition duration-200 ease-in-out
+    hover:opacity-100 dark/hover:text-white;
+  font-size: 0.9em;
+}
+
+::-webkit-scrollbar {
+  @apply dark:bg-[#212020];
+  width: 8px;
+  height: 8px;
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply dark:bg-[#888];
+  background: #ababab;
+}

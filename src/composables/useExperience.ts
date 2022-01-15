@@ -1,0 +1,43 @@
+export default function useExperience() {
+  const listExperience = ref([
+    {
+      id: 1,
+      date: 'Aug 2021 - Present',
+      company: 'PT Paninti Hub Indonesia',
+      type: 'Full-time',
+      job: 'Team Leader',
+      desc: ['- Monitoring and control git flow project',
+        '- Collaborate with Product Owner and Team'],
+    },
+    {
+      id: 2,
+      date: 'Sep 2019 - Present',
+      company: 'PT Paninti Hub Indonesia',
+      type: 'Full-time',
+      job: 'Front-End Web Developer',
+      desc: ['- Maintaining 4+ web apps, mostly in Vue.js',
+        '- Guiding Frontend Developers to have best practices in Nuxt.js, SCSS and Slicing Design'],
+    },
+    {
+      id: 3,
+      date: 'Jun 2020 - Present',
+      type: 'Freelance',
+      company: 'Dicoding Indonesia',
+      job: 'External Code Reviewer',
+      desc: ['- Reviewer at class Progressive Web Apps'],
+    },
+    {
+      id: 4,
+      date: 'Jun 2019 - Aug 2019',
+      type: 'Apprenticeship',
+      company: 'Imtech Solution',
+      job: 'Web Developer',
+      desc: ['- Monitoring and looking for bugs in the SINOAH application during PPDB SMKN 1 Cimahi.',
+        '- SIRENIS Applications made during this internship are used to assess students who are used by teachers also managed by the school admin base on majoring in software engineering which is made with Laravel 5.'],
+    },
+  ])
+
+  return {
+    listExperience,
+  }
+}
