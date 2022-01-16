@@ -110,7 +110,7 @@ export function useProjects() {
     {
       id: 4,
       name: 'Restoku',
-      url: 'https://paninti.com',
+      url: 'https://restoku.netlify.app',
       description: 'Restoku is an application to fulfill submissions dicoding in Become Front-End Web Developer Expert.',
       cover: coverRestoku,
       featured: false,
