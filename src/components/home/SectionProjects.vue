@@ -2,6 +2,8 @@
 import { useProjects } from '~/composables/useProjects'
 
 const { listProjects } = useProjects()
+
+const featuredProjects = computed(() => listProjects.value.filter(item => item.featured))
 </script>
 
 <template>
@@ -10,7 +12,7 @@ const { listProjects } = useProjects()
       Featured Projects
     </h1>
     <div class="list-projects mb-8">
-      <CardProject v-for="project in listProjects" :key="project.id" :project="project" />
+      <CardProject v-for="project in featuredProjects" :key="project.id" :project="project" />
     </div>
     <div class="mx-auto text-center">
       <router-link class="btn-outline" to="/projects">

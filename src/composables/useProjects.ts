@@ -13,6 +13,7 @@ import LogosPwa from '~icons/logos/pwa'
 import coverParentinghub from '~/assets/images/projects/parentinghub.png'
 import coverPaninti from '~/assets/images/projects/paninti.png'
 import coverPanintiPartner from '~/assets/images/projects/panintipartner.png'
+import coverRestoku from '~/assets/images/projects/restoku.png'
 
 export function useProjects() {
   const listProjects = shallowRef([
@@ -22,6 +23,7 @@ export function useProjects() {
       url: 'https://parentinghub.co.id',
       description: 'An educational media site and information about reviews, the growth and development of children and parenting.',
       cover: coverParentinghub,
+      featured: true,
       techstack: [
         {
           id: 1,
@@ -51,6 +53,7 @@ export function useProjects() {
       url: 'https://paninti.com',
       description: 'E-commerce for the most complete needs of mothers and babies.',
       cover: coverPaninti,
+      featured: true,
       techstack: [
         {
           id: 1,
@@ -80,6 +83,7 @@ export function useProjects() {
       url: 'https://partner.paninti.com',
       description: 'A place for mutual cooperation to face the challenges of an increasingly dynamic economic condition',
       cover: coverPanintiPartner,
+      featured: true,
       techstack: [
         {
           id: 1,
@@ -100,6 +104,36 @@ export function useProjects() {
           id: 4,
           name: 'Bootstrap 4',
           icon: LogosBootstrap,
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: 'Restoku',
+      url: 'https://paninti.com',
+      description: 'Restoku is an application to fulfill submissions dicoding in Become Front-End Web Developer Expert.',
+      cover: coverRestoku,
+      featured: false,
+      techstack: [
+        {
+          id: 1,
+          name: 'HTML',
+          icon: LogosHtml,
+        },
+        {
+          id: 2,
+          name: 'SASS/SCSS',
+          icon: LogosSass,
+        },
+        {
+          id: 3,
+          name: 'Javascript',
+          icon: LogosJavascript,
+        },
+        {
+          id: 4,
+          name: 'PWA',
+          icon: LogosPwa,
         },
       ],
     },
