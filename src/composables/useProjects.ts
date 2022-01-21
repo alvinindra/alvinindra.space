@@ -7,15 +7,21 @@ import LogosJavascript from '~icons/logos/javascript'
 import LogosHtml from '~icons/logos/html-5'
 import LogosCss from '~icons/logos/css-3'
 import LogosSass from '~icons/logos/sass'
+import LogosTailwind from '~icons/logos/tailwindcss-icon'
+import LogosNextjs from '~icons/file-icons/nextjs'
+import LogosDarkNextjs from '~icons/file-icons/nextjs?color=#fff'
 import LogosTypescript from '~icons/logos/typescript-icon'
 import LogosPwa from '~icons/logos/pwa'
+import LogosDarkPwa from '~icons/simple-icons/pwa'
 
 import coverParentinghub from '~/assets/images/projects/parentinghub.png'
 import coverPaninti from '~/assets/images/projects/paninti.png'
 import coverPanintiPartner from '~/assets/images/projects/panintipartner.png'
 import coverRestoku from '~/assets/images/projects/restoku.png'
+import coverQuranku from '~/assets/images/projects/cover-quranku.jpg'
 
 export function useProjects() {
+  const isDark = useDark()
   const listProjects = shallowRef([
     {
       id: 1,
@@ -83,7 +89,7 @@ export function useProjects() {
       url: 'https://partner.paninti.com',
       description: 'A place for mutual cooperation to face the challenges of an increasingly dynamic economic condition',
       cover: coverPanintiPartner,
-      featured: true,
+      featured: false,
       techstack: [
         {
           id: 1,
@@ -133,7 +139,37 @@ export function useProjects() {
         {
           id: 4,
           name: 'PWA',
-          icon: LogosPwa,
+          icon: isDark ? LogosDarkPwa : LogosPwa,
+        },
+      ],
+    },
+    {
+      id: 5,
+      name: 'Quranku',
+      url: 'https://alquran-ku.netlify.app/',
+      description: 'Al-Quran reading application with Indonesian translation verses.',
+      cover: coverQuranku,
+      featured: true,
+      techstack: [
+        {
+          id: 1,
+          name: 'Next.js',
+          icon: isDark ? LogosDarkNextjs : LogosNextjs,
+        },
+        {
+          id: 2,
+          name: 'Tailwind CSS',
+          icon: LogosTailwind,
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          icon: LogosTypescript,
+        },
+        {
+          id: 4,
+          name: 'PWA',
+          icon: isDark ? LogosDarkPwa : LogosPwa,
         },
       ],
     },
@@ -180,7 +216,7 @@ export function useProjects() {
       id: 7,
       title: 'Progressive Web Apps (PWA)',
       skill: 'Advanced',
-      icon: LogosPwa,
+      icon: isDark ? LogosDarkPwa : LogosPwa,
     },
     {
       id: 8,

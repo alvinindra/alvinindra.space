@@ -3,8 +3,10 @@ lockfileVersion: 5.3
 specifiers:
   '@antfu/eslint-config': ^0.10.0
   '@iconify-json/carbon': ^1.0.9
+  '@iconify-json/file-icons': ^1.0.1
   '@iconify-json/la': ^1.0.1
   '@iconify-json/logos': ^1.0.4
+  '@iconify-json/simple-icons': ^1.0.18
   '@types/fs-extra': ^9.0.13
   '@types/markdown-it-link-attributes': ^3.0.1
   '@types/nprogress': ^0.2.0
@@ -63,7 +65,9 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.10.0_eslint@8.6.0+typescript@4.5.4
   '@iconify-json/carbon': 1.0.13
+  '@iconify-json/file-icons': 1.0.1
   '@iconify-json/la': 1.0.1
+  '@iconify-json/simple-icons': 1.0.18
   '@types/fs-extra': 9.0.13
   '@types/markdown-it-link-attributes': 3.0.1
   '@types/nprogress': 0.2.0
@@ -463,6 +467,12 @@ packages:
       '@iconify/types': 1.0.12
     dev: true
 
+  /@iconify-json/file-icons/1.0.1:
+    resolution: {integrity: sha512-YZGyyV24Qw/YkCMbVfplcVfjQUcDMHH1WPYVlY6uKG9szRHx7OPVxeqCPow7i/3+TzN1gGTPtkrHzeHi5GXf6w==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
   /@iconify-json/la/1.0.1:
     resolution: {integrity: sha512-BC+sY8ClmJsihi3qYoECY5eISFRDWJCGYOKSfiqAWHirax7Khy2K5nDApT6G6XdMTnhxhUH5yadaFq1gCOEUkA==}
     dependencies:
@@ -474,6 +484,12 @@ packages:
     dependencies:
       '@iconify/types': 1.0.12
     dev: false
+
+  /@iconify-json/simple-icons/1.0.18:
+    resolution: {integrity: sha512-PSwPucrhDhBl8cHMdJZtKzi9jm+XgSoqlpobYvCHMhvsWSTkGU/G8TwrQqLYv92DOohBnYwNm+Hiw0+T4JjzjQ==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
 
   /@iconify/types/1.0.12:
     resolution: {integrity: sha512-6er6wSGF3hgc1JEZqiGpg21CTCjHBYOUwqLmb2Idzkjiw6ogalGP0ZMLVutCzah+0WB4yP+Zd2oVPN8jvJ+Ftg==}

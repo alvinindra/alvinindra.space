@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const isDark = useDark()
 defineProps({
   project: {
     type: Object,
@@ -22,6 +23,7 @@ defineProps({
               :is="ts.icon"
               v-for="ts in project.techstack"
               :key="ts.id"
+              :class="isDark ? 'fill-white' : ''"
               class="text-xl w-24px h-24px mr-3"
             />
           </div>
