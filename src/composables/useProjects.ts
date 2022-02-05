@@ -13,12 +13,14 @@ import LogosDarkNextjs from '~icons/file-icons/nextjs?color=#fff'
 import LogosTypescript from '~icons/logos/typescript-icon'
 import LogosPwa from '~icons/logos/pwa'
 import LogosDarkPwa from '~icons/simple-icons/pwa'
+import LogosReact from '~icons/logos/react'
 
 import coverParentinghub from '~/assets/images/projects/parentinghub.png'
 import coverPaninti from '~/assets/images/projects/paninti.png'
 import coverPanintiPartner from '~/assets/images/projects/panintipartner.png'
 import coverRestoku from '~/assets/images/projects/restoku.png'
 import coverQuranku from '~/assets/images/projects/cover-quranku.jpg'
+import coverCovid19 from '~/assets/images/projects/cover-covid19.jpg'
 
 export function useProjects() {
   const isDark = useDark()
@@ -81,6 +83,11 @@ export function useProjects() {
           name: 'Bootstrap 4',
           icon: LogosBootstrap,
         },
+        {
+          id: 5,
+          name: 'SASS/SCSS',
+          icon: LogosSass,
+        },
       ],
     },
     {
@@ -110,6 +117,11 @@ export function useProjects() {
           id: 4,
           name: 'Bootstrap 4',
           icon: LogosBootstrap,
+        },
+        {
+          id: 5,
+          name: 'SASS/SCSS',
+          icon: LogosSass,
         },
       ],
     },
@@ -153,8 +165,43 @@ export function useProjects() {
       techstack: [
         {
           id: 1,
+          name: 'Reactjs',
+          icon: LogosReact,
+        },
+        {
+          id: 2,
           name: 'Next.js',
           icon: isDark ? LogosDarkNextjs : LogosNextjs,
+        },
+        {
+          id: 3,
+          name: 'Tailwind CSS',
+          icon: LogosTailwind,
+        },
+        {
+          id: 4,
+          name: 'TypeScript',
+          icon: LogosTypescript,
+        },
+        {
+          id: 5,
+          name: 'PWA',
+          icon: isDark ? LogosDarkPwa : LogosPwa,
+        },
+      ],
+    },
+    {
+      id: 6,
+      name: 'Covid 19 Tracker Indonesia',
+      url: 'https://covid19-in-indonesia.netlify.app/',
+      description: 'A website that displays the total number of COVID-19 cases in Indonesia',
+      cover: coverCovid19,
+      featured: false,
+      techstack: [
+        {
+          id: 1,
+          name: 'Reactjs',
+          icon: LogosReact,
         },
         {
           id: 2,
@@ -163,11 +210,6 @@ export function useProjects() {
         },
         {
           id: 3,
-          name: 'TypeScript',
-          icon: LogosTypescript,
-        },
-        {
-          id: 4,
           name: 'PWA',
           icon: isDark ? LogosDarkPwa : LogosPwa,
         },
@@ -223,6 +265,18 @@ export function useProjects() {
       title: 'Nuxt',
       skill: 'Expert',
       icon: LogosNuxt,
+    },
+    {
+      id: 9,
+      title: 'React JS',
+      skill: 'Intermediate',
+      icon: LogosReact,
+    },
+    {
+      id: 10,
+      title: 'Nextjs',
+      skill: 'Beginner',
+      icon: isDark ? LogosDarkNextjs : LogosNextjs,
     },
   ])
 

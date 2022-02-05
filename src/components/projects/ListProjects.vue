@@ -5,9 +5,11 @@ const { listProjects } = useProjects()
 </script>
 
 <template>
-  <h1 class="text-3xl mb-1 font-bold">
-    Projects
-  </h1>
+  <div class="prose mb-3">
+    <h1>
+      Projects
+    </h1>
+  </div>
   <h2 class="mb-5">
     Showcase of my work on Front-End Web Developer.
   </h2>
