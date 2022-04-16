@@ -11,7 +11,7 @@ const { listProjects } = useProjects()
     </h1>
   </div>
   <h2 class="mb-5">
-    Showcase of my work on Front-End Web Developer.
+    Showcase of my work on Front-End Developer.
   </h2>
   <div class="list-projects mb-8 animated animate-fadeInUp">
     <CardProject v-for="project in listProjects" :key="project.id" :project="project" />

@@ -4,7 +4,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Showcase of my work on Front-End Web Developer',
+      content: 'Showcase of my work on Front-End Developer',
     },
   ],
 })

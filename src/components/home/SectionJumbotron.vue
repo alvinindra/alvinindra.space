@@ -72,12 +72,12 @@ const cardStyle = computed(() => ({
         Hi, I'm Alvin Indra Pratama
       </h2>
       <h1 class="text-xl sm:text-3xl text-green-500 dark:text-white font-bold mb-2 sm:mb-5 animated animate-delay-300 animate-fadeInUp">
-        Front-End Web Developer
+        Front-End Developer
       </h1>
       <p class="text-md sm:text-lg text-justify mb-4 animated animate-delay-400 animate-fadeInUp">
-        A Front-End Web Developer with 2+ years of experience.
+        A Front-End Developer with 2+ years of experience.
         Now working on PT Paninti Hub Indonesia as Front-End Developer for the Web Platform Team.
-        Maintaining 4+ web application and guiding a new Front-End Web Developer to work with company.
+        Maintaining 4+ web application and guiding a new Front-End Developer to work with company.
       </p>
       <ListInfo class="animated animate-delay-500 animate-fadeInUp" />
     </div>
