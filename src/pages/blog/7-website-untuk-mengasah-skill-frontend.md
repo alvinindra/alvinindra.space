@@ -18,7 +18,7 @@ Web: https://buildwithangga.com/journey/become-front-end-developer
 Web: https://www.codepolitan.com/
 
 ## 4.	Sekolahkoding
-![sekolahkoding.com](../../assets/images/posts/7-website/4.sekolahkoding.png)
+![sekolahkoding.com](../../assets/images/posts/7-website/4.sekolah-koding.png)
 Web: https://sekolahkoding.com/track/mulai-belajar-website-frontend
 
 ## 5.	freeCodeCamp
