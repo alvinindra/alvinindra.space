@@ -22,7 +22,7 @@ Web: https://www.codepolitan.com/
 Web: https://sekolahkoding.com/track/mulai-belajar-website-frontend
 
 ## 5.	freeCodeCamp
-![freecodecamp.org](../../assets/images/posts/7-website/5.freecodecamp.png)
+![freecodecamp.org](../../assets/images/posts/7-website/5.freeCodeCamp.png)
 Web: https://www.freecodecamp.org/
 
 ## 6.	w3schools
