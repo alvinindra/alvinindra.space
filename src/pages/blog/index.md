@@ -8,8 +8,11 @@ description: Note, inspiration, motivation, self-reminder
     Blog
   </h1>
   <div class="!mt-0">
-    Personal writing to encourage myself. Taken from instagram <a class="!no-underline" href="https://instagram.com/alvin_indrap">@alvin_indrap</a>
+    Sharing about Frontend Web Developer. Taken from instagram <a class="!no-underline" href="https://instagram.com/anak.frontend">@anak.frontend</a>
   </div>
+  <!-- <div class="!mt-0">
+    Personal writing to encourage myself. Taken from instagram <a class="!no-underline" href="https://instagram.com/alvin_indrap">@alvin_indrap</a>
+  </div> -->
 </div>
 
 <ListPosts />
